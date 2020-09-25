@@ -1,0 +1,9 @@
+package test;
+import java.util.Scanner; 
+
+public class scannerTest {
+
+}
+
+//4、1摄氏度(℃)=33.8华氏度(℉)，实现二者之间的转换(输入温度数值，输出转换结果)。
+//5、使用三目运算实现比较2个数的大小，并将小的数加20输出

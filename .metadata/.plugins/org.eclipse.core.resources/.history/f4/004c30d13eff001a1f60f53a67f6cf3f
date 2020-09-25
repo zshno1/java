@@ -1,0 +1,55 @@
+package test;
+import java.util.Scanner; 
+
+public class dome0919 {
+	public static void main(String[] ags) {
+//		1、编写程序实现对给定的4个整数从大到小的顺序排列
+		int a = 5, b = 3, c = 8, d = 6, t;
+//		a 经过比较将最大的值不断赋值给a，得到a最大
+		if(a < b) {
+			t = a;
+			a = b;
+			b = t;
+		}
+		if( a < c ) {
+			t = a;
+			a = c ;
+			c  = t;
+		}
+		if( a < d ) {
+			t = a;
+			a = d ;
+			d  = t;
+		}
+		//		b 经过比较将最大的值不断赋值给b，此时b最大
+		if( b < c) {
+			t = b;
+			b = c ;
+			c  = t;
+		}
+		
+		if( b < d) {
+			t = b;
+			b = d ;
+			d  = t;
+		}
+		//	c 经过比较将最大的值不断赋值给c，得到c最大
+		
+		if( c < d) {
+			t = c ;
+			c = d ;
+			d  = t;
+		}
+		System.out.println(a + ">" + b + ">" + c +">" + d);
+		
+		
+//		2、编写程序，从键盘输入一个0-99999之间任意数，判断输入的数是几位数
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.printf("请输入0-99999之间任意数:");
+		int num = scanner.nextInt();
+		System.out.printf("输入的数是%d\n",num);
+		scanner.close();
+	}
+
+}

@@ -1,0 +1,15 @@
+package test;
+
+public class dome0919 {
+	public static void main(String[] ags) {
+//		1、编写程序实现对给定的4个整数从大到小的顺序排列
+		int a = 5, b = 3, c = 8, d = 6, t;
+		if(a < b) {
+			
+		}
+//		2、编写程序，从键盘输入一个0-99999之间任意数，判断输入的数是几位数
+		
+		
+	}
+
+}
