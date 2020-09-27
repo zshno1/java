@@ -1,0 +1,50 @@
+package dome926;
+
+public class forTest {
+	public static void main(String[] ags) {
+//		break/continue语句练习；计算1^2+2^2+3^2+...+i^2...，结果大于5000时停止计算，输出结果和对应的i值。
+		int i , k = 0;
+		for (i = 0;  ; i++) {
+			if(k > 5000) {
+				break;
+			}
+			k = k + i * i;
+		}
+		System.out.println(k + "//" + i);
+		
+		for(int j =0; j < 10; j++) {
+			if(j == 2) {
+				continue;
+			}
+			System.out.println(j);
+		}
+//	图案打印
+//		String  pattern = "*";
+//		for (int n =0; n < 6; n++) {
+//			System.out.println(pattern);
+//			pattern = pattern +  "**" ;
+//		}	
+		
+		
+		for (int n =1 n < 6; n++) {
+			for(int m = 1 ; m <= n *2-1 ; m++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}	
+		
+//		System.out.println("另一个图案");
+//		for (int x =5; x > 0; x--) {
+//			String  patternx= "*";
+//			for(int y = 0 ; y <= x-1 ;y++){
+//				patternx = patternx +  "**" ;
+//			}
+//			System.out.println(patternx);
+//			
+//		}	
+		
+		
+		
+		
+	}
+}

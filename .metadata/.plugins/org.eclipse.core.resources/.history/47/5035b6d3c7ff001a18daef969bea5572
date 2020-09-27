@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Testif2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入手机号");
+		long innum=sc.nextLong();
+		int tel=(int)(innum/100000000);//??
+		switch (tel) {
+		case 136:
+		
+			System.out.println("移动运营商");
+			break;
+		
+		case 133:
+			System.out.println("电信运营商");
+			break;
+		case 186:
+		
+			System.out.println("联通运营商");
+			break;
+		default:
+			System.out.println("未知");
+			break;
+		}
+	}
+}

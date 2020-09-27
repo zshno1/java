@@ -1,0 +1,13 @@
+package dome926;
+
+public class forTest {
+	public static void main(String[] ags) {
+		int i ;
+		for (i = 0; i < 10; i++) {
+			if(i == 2) {
+				continue;
+			}
+			System.out.println(i);
+		}
+	}
+}
